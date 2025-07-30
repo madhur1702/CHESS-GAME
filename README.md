@@ -83,3 +83,12 @@ The AI uses a basic strategy:
 - 🧩 Drag-and-drop piece movement  
 - 🌐 Online multiplayer with WebSockets  
 - 📜 Move history and game replay  
+
+---
+
+## 👐 Open to Contributions
+
+We welcome contributions to improve this chess game!  
+Feel free to fork the repository, create new features, fix bugs, or enhance the UI.
+
+> 📌 Make sure to open a pull request with a clear explanation of your changes.
