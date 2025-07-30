@@ -31,9 +31,8 @@ Play in **2 Player** mode or challenge a basic AI opponent. Includes sound effec
 
 ## 📸 Preview
 
-> *(Replace the image below with a real screenshot once available)*
+![image](https://github.com/user-attachments/assets/f9a11607-b364-49be-aca2-969623672cd4)
 
-![Chess Game Screenshot](https://via.placeholder.com/800x400.png?text=Chess+Game+UI+Preview)
 
 ---
 
