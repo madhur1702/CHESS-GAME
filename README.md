@@ -39,13 +39,11 @@ A fully functional, visually polished Chess game built using HTML, CSS, and Java
 1. Clone the repository:
    ```bash
    git clone https://github.com/jayeshbhandarkar/CHESS-GAME.git
-````
 
-2. Open the project folder:
+2. **Open the project folder**:
 
    ```bash
    cd CHESS-GAME
-   ```
 
 3. Run the game:
 
