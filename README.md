@@ -1,34 +1,37 @@
 # ♔ Chess Game — Play vs Friend or AI ♛
 
-A fully functional, visually polished Chess game built using HTML, CSS, and JavaScript. Supports both **2 Player** and **Player vs AI** modes, complete with sound effects and game rules like check, checkmate, and stalemate detection.
+A fully functional, visually polished Chess game built using **HTML**, **CSS**, and **JavaScript**.  
+Play in **2 Player** mode or challenge a basic AI opponent. Includes sound effects, move validation, and game-ending conditions like checkmate and stalemate.
 
 ---
 
 ## 🎮 Features
 
-- Interactive chessboard with click-based movement  
+- Interactive chessboard with click-to-move functionality  
 - Two gameplay modes:  
-  - **2 Player Mode**  
-  - **Player vs AI** (basic random-move logic)  
-- Valid move highlighting and selection visuals  
-- Full chess rules implementation:  
+  - ✅ **2 Player Mode**  
+  - 🤖 **Player vs AI** (basic random-move logic)  
+- Valid move highlighting and selection feedback  
+- Implements core chess rules:  
   - Check, Checkmate, Stalemate  
-  - Undo moves (even for AI games)  
-- Captured pieces tracking for both sides  
-- Audio feedback for move, capture, check, and checkmate  
-- Clean, modern, and responsive UI  
+  - Undo moves (including AI games)  
+- Captured pieces display for each side  
+- Sound effects for moves, captures, check, and checkmate  
+- Fully responsive and clean modern UI  
 
 ---
 
 ## 🛠️ Built With
 
-- **HTML5** – Structure  
-- **CSS3** – Styling and layout  
-- **JavaScript (Vanilla)** – Game logic, AI, and interactions  
+- **HTML5** — Page structure  
+- **CSS3** — Styling and layout  
+- **JavaScript (Vanilla)** — Game logic, AI behavior, interactivity  
 
 ---
 
 ## 📸 Preview
+
+> *(Replace the image below with a real screenshot once available)*
 
 ![Chess Game Screenshot](https://via.placeholder.com/800x400.png?text=Chess+Game+UI+Preview)
 
@@ -36,40 +39,56 @@ A fully functional, visually polished Chess game built using HTML, CSS, and Java
 
 ## 🚀 How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/jayeshbhandarkar/CHESS-GAME.git
+1. **Clone the repository:**
 
-2. **Open the project folder**:
+```bash
+git clone https://github.com/jayeshbhandarkar/CHESS-GAME.git
+```
 
-   ```bash
-   cd CHESS-GAME
+2. **Navigate to the project folder:**
 
-3. Run the game:
+```bash
+cd CHESS-GAME
+```
 
-   * Open `index.html` in your web browser (no setup or dependencies required)
+3. **Launch the game:**
+
+- Open the `index.html` file in any modern web browser.  
+- No installations or server setup required.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-📁 CHESS-GAME/
-├── index.html     # All-in-one HTML, CSS, and JavaScript code
-└── README.md      # Project description and usage instructions
+CHESS-GAME/
+├── index.html     # Main HTML file with all-in-one HTML, CSS, and JS
+└── README.md      # Project documentation
 ```
 
 ---
 
 ## 🤖 AI Logic
 
-The AI selects random valid moves, prioritizing captures. It is designed to be simple and beginner-friendly.
+The AI uses a basic strategy:  
+- It scans all valid moves for black pieces  
+- Prefers capturing moves over others  
+- Selects a move at random (ideal for casual play)
 
 ---
 
-## 🔧 Future Suggestions
+## 🔧 Future Enhancements
 
-* Smarter AI (Minimax)
-* Drag-and-drop piece movement
-* Online multiplayer support
-* Move history log and replay feature
+- ♟ Smarter AI using Minimax algorithm  
+- 🧩 Drag-and-drop piece movement  
+- 🌐 Online multiplayer with WebSockets  
+- 📜 Move history and game replay  
+
+---
+
+## 👐 Open to Contributions
+
+We welcome contributions to improve this chess game!  
+Feel free to fork the repository, create new features, fix bugs, or enhance the UI.
+
+> 📌 Make sure to open a pull request with a clear explanation of your changes.
